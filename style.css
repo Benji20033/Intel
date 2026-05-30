@@ -90,18 +90,7 @@ img {
   -webkit-overflow-scrolling: touch;
 }
 
-.timeline-grid::before {
-  content: "";
-  position: absolute;
-  top: 50%;
-  left: 6%;
-  right: 6%;
-  height: 4px;
-  background: rgba(128, 184, 255, 0.16);
-  transform: translateY(-50%);
-  border-radius: 999px;
-  z-index: 0;
-}
+/* Removed the horizontal timeline line for a cleaner look */
 
 .timeline-card {
   position: relative;
